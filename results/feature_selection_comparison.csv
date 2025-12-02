@@ -1,0 +1,3 @@
+metric,baseline,reduced
+test_accuracy,0.778,0.75
+cv_mean,0.606,0.691
