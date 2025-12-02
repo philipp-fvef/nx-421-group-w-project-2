@@ -153,10 +153,38 @@ def process_mat_files(mat_files):
 
 if __name__ == "__main__":
 
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    print("Base path:", base_path)
     # If no arguments: use multiple default files
     if len(sys.argv) <= 1:
         default_mats = [
-            os.path.join("data", "s2", "S2_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s1", "S1_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s2", "S2_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s3", "S3_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s4", "S4_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s5", "S5_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s6", "S6_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s7", "S7_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s8", "S8_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s9", "S9_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s10", "S10_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s11", "S11_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s12", "S12_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s13", "S13_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s14", "S14_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s15", "S15_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s16", "S16_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s17", "S17_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s18", "S18_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s19", "S19_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s20", "S20_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s21", "S21_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s22", "S22_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s23", "S23_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s24", "S24_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s25", "S25_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s26", "S26_A1_E1.mat"),
+            os.path.join("data", "all_patients", "s27", "S27_A1_E1.mat"),
             # os.path.join("data", "s2", "S2_A1_E2.mat"),
             # os.path.join("data", "s2", "S2_A1_E3.mat"),
         ]
