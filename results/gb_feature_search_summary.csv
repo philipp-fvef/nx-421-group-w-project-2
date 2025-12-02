@@ -1,0 +1,2 @@
+feature_set,n_features,best_params,best_cv_score,test_accuracy
+mav+std+maxav+rms+wl+ssc+zc+wamp+mean_freq+median_freq,100,"{'learning_rate': 0.1, 'max_depth': 1, 'n_estimators': 200, 'subsample': 0.8}",0.7261904761904763,0.8333333333333334
