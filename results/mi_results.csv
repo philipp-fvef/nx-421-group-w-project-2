@@ -1,0 +1,2 @@
+method,n_original_features,n_selected_features,cv_accuracy_mi,cv_std_mi,test_accuracy_mi,cv_accuracy_best_features,test_accuracy_best_features,cv_improvement,test_improvement,hyperparameters
+Mutual Information,230,43,0.7812500000000001,0.05412658773652742,0.7916666666666666,0.8333,0.75,-0.05204999999999993,0.04166666666666663,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}"

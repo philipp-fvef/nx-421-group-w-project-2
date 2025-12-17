@@ -1,0 +1,2 @@
+method,n_original_features,n_ica_components,cv_accuracy_ica,cv_std_ica,test_accuracy_ica,cv_accuracy_best_features,test_accuracy_best_features,cv_improvement,test_improvement,hyperparameters
+ICA,230,9,0.7708333333333334,0.06909634979907081,0.875,0.8333,0.75,-0.06246666666666667,0.125,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}"

@@ -1,0 +1,2 @@
+best_feature_set,n_features,n_candidates_step2,initial_hyperparameters,cv_accuracy_step2,final_hyperparameters,cv_accuracy_tuned,test_accuracy
+std+wamp,2,5,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}",0.8125000000000001,"{'gbc__learning_rate': 0.05, 'gbc__max_depth': 2, 'gbc__n_estimators': 300, 'gbc__subsample': 0.8}",0.8333333333333334,0.7916666666666666

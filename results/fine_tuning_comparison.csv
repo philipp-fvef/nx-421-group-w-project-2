@@ -1,0 +1,6 @@
+feature_set,cv_accuracy_step2,cv_accuracy_tuned,improvement,best_params
+std+wamp,0.8125000000000001,0.8333333333333334,0.02083333333333326,"{'gbc__learning_rate': 0.05, 'gbc__max_depth': 2, 'gbc__n_estimators': 300, 'gbc__subsample': 0.8}"
+std+wamp+median_freq,0.8125000000000001,0.8125,-1.1102230246251565e-16,"{'gbc__learning_rate': 0.05, 'gbc__max_depth': 3, 'gbc__n_estimators': 100, 'gbc__subsample': 0.8}"
+std+wamp+cepstrum_coeffs,0.8125000000000001,0.8229166666666667,0.01041666666666663,"{'gbc__learning_rate': 0.05, 'gbc__max_depth': 3, 'gbc__n_estimators': 200, 'gbc__subsample': 0.8}"
+mav+std+maxav+rms,0.8125000000000001,0.8229166666666667,0.01041666666666663,"{'gbc__learning_rate': 0.1, 'gbc__max_depth': 3, 'gbc__n_estimators': 300, 'gbc__subsample': 0.8}"
+mav+rms+wl+zc+median_freq,0.8125000000000001,0.8125000000000001,0.0,"{'gbc__learning_rate': 0.05, 'gbc__max_depth': 3, 'gbc__n_estimators': 100, 'gbc__subsample': 0.8}"
